@@ -1,0 +1,13 @@
+{
+  "testEnvironment": "jest-environment-node",
+  "transform": {},
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "!**/node_modules/**",
+    "server/**/*.js"
+  ],
+  "testTimeout": 120000,
+  "globals": {
+    "CLIENT_PATH": "client"
+  }
+}
